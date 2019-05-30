@@ -1,0 +1,4 @@
+passengers(f_name TEXT, m_name TEXT, l_name TEXT, ssn TEXT)
+planes(tail_no NUMERIC, make TEXT, model TEXT, capacity NUMERIC, mph NUMERIC)
+flights(flight_no NUMERIC, dep_loc TEXT, dep_time TEXT, arr_loc TEXT, arr_time TEXT, tail_no NUMERIC)
+onboard(ssn TEXT, flight_no NUMERIC, seat TEXT)

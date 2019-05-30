@@ -1,0 +1,7 @@
+0|'Springfield, IL'|'07:15'|'Chicago, IL'|'07:45'|4
+1|'Columbus, OH'|'16:00'|'Portland, OR'|'22:00'|4
+2|'New York, NY'|'12:30'|'Miami, FL'|'13:00'|2
+3|'Paris, France'|'15:00'|'Munich, Germany'|'17:40'|1
+4|'Hartford, CT'|'09:00'|'Phoenix, AZ'|'12:00'|1
+5|'Miami, FL'|'10:45'|'Austin, TX'|'13:30'|2
+6|'Akron, OH'|'14:20'|'Hartford, CT'|'16:45'|3

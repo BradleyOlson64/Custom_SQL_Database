@@ -1,0 +1,5 @@
+20|'Columbus'
+40|'Portland'
+60|'San Francisco'
+80|'Chicago'
+100|'New York City'

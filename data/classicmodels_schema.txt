@@ -1,0 +1,8 @@
+customers(customerNumber NUMERIC, customerName TEXT, contactLastName TEXT, contactFirstName TEXT, phone TEXT, addressLine1 TEXT, addressLine2 TEXT, city TEXT, state TEXT, postalCode TEXT, country TEXT, salesRepEmployeeNumber NUMERIC, creditLimit NUMERIC)
+productlines(productLine TEXT, textDescription TEXT, htmlDescription TEXT, image TEXT)
+employees(employeeNumber NUMERIC, lastName TEXT, firstName TEXT, extension TEXT, email TEXT, officeCode NUMERIC, reportsTo NUMERIC, jobTitle TEXT)
+offices(officeCode NUMERIC, city TEXT, phone TEXT, addressLine1 TEXT, addressLine2 TEXT, state TEXT, country TEXT, postalCode TEXT, territory TEXT)
+orderdetails(orderNumber NUMERIC, productCode TEXT, quantityOrdered NUMERIC, priceEach NUMERIC, orderLineNumber NUMERIC)
+orders(orderNumber NUMERIC, orderDate TEXT, requiredDate TEXT, shippedDate TEXT, status TEXT, comments TEXT, customerNumber NUMERIC)
+payments(customerNumber NUMERIC, checkNumber TEXT, paymentDate TEXT, amount NUMERIC)
+products(productCode TEXT, productName TEXT, productLine TEXT, productScale TEXT, productVendor TEXT, productDescription TEXT, quantityInStock NUMERIC, buyPrice NUMERIC, MSRP NUMERIC)
